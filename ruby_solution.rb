@@ -30,7 +30,7 @@ end
 
 phone_number = []
 pair_map.each_pair do |k,v|
-  if (v == 1)
+  if v == 1
     phone_number.push k[0,1].to_i + k[1,1].to_i
   end
 end
